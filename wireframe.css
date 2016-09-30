@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main li, section, header li, header, footer{
+  display: inline-block;
+}
+body{
+  max-width: 1036px;
+  border: 1px solid silver;
+}
+header, footer{
+  width: 100%;
+  background-color: #444444;
+  color: #858585;
+}
+header img{
+  margin: 10px;
+}
+header nav{
+   float: right;
+   width: 75%;
+   margin: 20px 20px 0 0;
+}
+header li{
+  margin: 2% 12% 2% 0;
+  font-weight: bold;
+}
+main{
+  margin: 10px 23px;
+}
+main ul{
+  display: table;
+}
+main img{
+  margin: 15px;
+}
+section article{
+  width: 450px;
+  float: right;
+  margin: 15px;
+  height: 400px;
+}
+section p{
+  height: 340px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  line-height: 1.5em;
+  font-style: italic;
+}
+button{
+  background-color: #000000;
+  height: 40px;
+  width: 160px;
+  color: #ffffff;
+  font-weight: bold;
+}
+footer{
+  margin-top: 10px;
+  height: 90px;
+}
